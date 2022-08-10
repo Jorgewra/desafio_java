@@ -1,3 +1,4 @@
+
 server:
   port: 8080
   
@@ -16,19 +17,3 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
-
-client:
-  applicationName: APP
-  url:
-    cep: https://viacep.com.br/ws
-
-swagger:
-  base-package: com.example.demo
-  title: Demo API REST
-  description: Documentação do serviço
-  version: 1.0
-  terms: Terms of Service
-  develloper-name: Nome do desenvolvedor
-  develloper-email: desenvolvedor@gmail.com
-  licence: Apache License Version 2.0
-  licence-url: https://www.apache.org/licesen.html
